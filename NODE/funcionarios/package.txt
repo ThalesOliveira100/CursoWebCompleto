@@ -1,0 +1,19 @@
+O package também é importante para ter a descrição de todas as dependencias que o projeto irá utilizar.
+
+// Instala e deixa salvo no package
+npm i --save dependencia
+
+
+// Antes do número da versão o package.json aceita dois caracteres: o ^ indicando que a versão pode ser maior que a indicada, e o ~ que indica que deve ser a mesma versão porém o fixed pode ser superior. Caso não tenha nenhum caractere, significa que deve ser exatamente a mesma versão indicada.
+
+"dependencies": {
+    "axios": "0.17.1"
+}
+
+
+npm install --save-dev axios@0.17.1 -E
+--save-dev : Dependencia necessária apenas em desenvolvimento
+Após o @ indicar a versão desejada
+-E : instalação da versão exata.
+
+package-lock.json   :   Detalha de forma mais precisa a respeito das versões utilizadass durante o desenvolvimento do projeto.
