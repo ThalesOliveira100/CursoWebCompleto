@@ -3,6 +3,10 @@ function falarDepoisDe(segundos, frase) {
         setTimeout(() => {
             resolve(frase)
         }, segundos * 1000)
+
+        if (segundos > 5) {
+            reject(reason = 'Tempo inaceitável')
+        }
     })
 }
 
@@ -10,7 +14,7 @@ function falarDepoisDe(segundos, frase) {
 // then pode ser utilizado inumeras vezes.
 // catch apenas uma vez para a tratação de erro
 
-falarDepoisDe(3, 'Show de bolice')
+falarDepoisDe(7, 'Show de bolice')
     .then(frase => frase.concat('?!?'))
     .then(outrafrase => console.log(outrafrase))
     .catch(e => console.log(e))
