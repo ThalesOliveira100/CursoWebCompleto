@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um pouco de CSS</title>
+    <style>
+        h1 {
+            font-size: 20px;
+        }
+
+        .fundoVermelho {
+            background-color: red;
+            background-color: #ff0000;
+            background-color: rgb(255, 0, 0);
+            background-color: #c00;
+        }
+
+        .negrito {
+            font-weight: bold;
+        }
+
+        #textoPrincipal {
+            font-size: 50px;
+            font-weight: bold;
+            color: #fff;
+            padding: 10px;
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    <span id="textoPrincipal">Texto 1</span><br><br><br>
+    <span class="fundoVermelho negrito">Texto 2</span><br>
+    <span class="fundoVermelho">Texto 3</span><br>
+    <span class="negrito" wm-atrib style="display: none;">Texto 4</span>
+    
+
+    <script>
+        document.querySelector('.fundoVermelho')
+        document.querySelector('#textoPrincipal')
+        document.querySelector('[wm-atrib]')
+    </script>
+
+</body>
+</html>
