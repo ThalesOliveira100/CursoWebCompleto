@@ -1,0 +1,59 @@
+<H1>Projeto</H1>
+<ul class="tree">
+    <li>
+        <span wm-folder>backend</span>
+        <ul>
+            <li>
+                <span wm-folder>app</span>
+                <ul>
+                    <li>produto.js</li>
+                    <li>usuario.js</li>
+                    <li>venda.js</li>
+                </ul>
+            </li>
+            <li>
+                <span wm-folder>config</span>
+                <ul>
+                    <li>banco.js</li>
+                    <li>rotas.js</li>
+                    <li>servidor.js</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <span wm-folder>frontend</span>
+        <ul>
+            <li>
+                <span wm-folder>public</span>
+                <ul>
+                    <li>app.css</li>
+                    <li>app.js</li>
+                    <li>index.html</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+
+<script>
+    /* Desafio:
+    1 - Criar um script de javascript, de forma que após clicar em nas listas 
+    principais "backend" e "frontend", as demais listas sejam ocultadas, como se 
+    estivesse fechando uma ramificação da árvore.
+     */
+
+     document.querySelectorAll('[wm-folder]').forEach(folder => {
+        folder.onclick = function(e) {
+            // Pega o proximo elemento da propriedade
+            const ul = folder.nextElementSibling
+            const display_status = ul.style.display
+
+            ul.style.display = display_status === 'none' ? 'block' : 'none'
+        }
+     })
+    
+
+</script>
