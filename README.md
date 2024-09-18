@@ -83,5 +83,5 @@ Este repositório ainda está em **desenvolvimento** e será atualizado com mais
 Sinta-se à vontade para explorar os arquivos e acompanhar meu progresso no curso!
 ---
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://github.com/ThalesOliveira100)
-[![Email](https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:toliveiradev@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/devthalesoliveira/)
+
