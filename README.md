@@ -7,7 +7,6 @@ Este repositório contém os arquivos e projetos desenvolvidos durante o curso *
 Os arquivos estão organizados nas seguintes pastas:
 
 - **WEB COMPLETO UDEMY\NODE**
-- **WEB COMPLETO UDEMY\node_modules**
 - **WEB COMPLETO UDEMY\Principios**
 - **WEB COMPLETO UDEMY\CSS**
 - **WEB COMPLETO UDEMY\ESNext**
